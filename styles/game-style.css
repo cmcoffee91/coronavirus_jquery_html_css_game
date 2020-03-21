@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    font-size: 1.3em;
+    background-color: lightgreen;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hits {
+    padding: 25px;
+    font-size: 1.3em;
+}
+
+#theRona {
+    width: 200px;
+    height: 200px;
+    cursor: url(../img/syringe.png), auto;
+}
